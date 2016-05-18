@@ -1,0 +1,587 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"y",
+				"y"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/app.ts",
+			"settings":
+			{
+				"buffer_size": 1744,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/index.html",
+			"settings":
+			{
+				"buffer_size": 585,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 727.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"toggle men",
+				"View: Toggle Menu"
+			],
+			[
+				"togg",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 552.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/kranzi/Projects/private/typescript",
+		"/home/kranzi/Projects/private/typescript/dist",
+		"/home/kranzi/Projects/private/typescript/roles/gulp",
+		"/home/kranzi/Projects/private/typescript/roles/gulp/meta",
+		"/home/kranzi/Projects/private/typescript/roles/gulp/tasks",
+		"/home/kranzi/Projects/private/typescript/roles/node",
+		"/home/kranzi/Projects/private/typescript/roles/node/defaults",
+		"/home/kranzi/Projects/private/typescript/roles/node/meta",
+		"/home/kranzi/Projects/private/typescript/roles/node/tasks",
+		"/home/kranzi/Projects/private/typescript/roles/typescript",
+		"/home/kranzi/Projects/private/typescript/roles/typescript/meta",
+		"/home/kranzi/Projects/private/typescript/roles/typescript/tasks",
+		"/home/kranzi/Projects/private/typescript/src",
+		"/home/kranzi/infra/ansible/roles/ZFS",
+		"/home/kranzi/infra/ansible/roles/ZFS/meta",
+		"/home/kranzi/infra/ansible/roles/ZFS/tasks",
+		"/home/kranzi/infra/ansible/roles/autossh",
+		"/home/kranzi/infra/ansible/roles/autossh/meta",
+		"/home/kranzi/infra/ansible/roles/chromium",
+		"/home/kranzi/infra/ansible/roles/chromium/meta",
+		"/home/kranzi/infra/ansible/roles/chromium/tasks",
+		"/home/kranzi/infra/ansible/roles/coffee",
+		"/home/kranzi/infra/ansible/roles/docker",
+		"/home/kranzi/infra/ansible/roles/docker/meta",
+		"/home/kranzi/infra/ansible/roles/docker/tasks",
+		"/home/kranzi/infra/ansible/roles/docker-image",
+		"/home/kranzi/infra/ansible/roles/docker-image/meta",
+		"/home/kranzi/infra/ansible/roles/fitlet-alpm",
+		"/home/kranzi/infra/ansible/roles/fitlet-alpm/meta",
+		"/home/kranzi/infra/ansible/roles/fitlet-alpm/tasks",
+		"/home/kranzi/infra/ansible/roles/fitlet-watchdog",
+		"/home/kranzi/infra/ansible/roles/fitlet-watchdog/meta",
+		"/home/kranzi/infra/ansible/roles/fitlet-watchdog/tasks",
+		"/home/kranzi/infra/ansible/roles/htop",
+		"/home/kranzi/infra/ansible/roles/htop/meta",
+		"/home/kranzi/infra/ansible/roles/i3",
+		"/home/kranzi/infra/ansible/roles/i3/meta",
+		"/home/kranzi/infra/ansible/roles/i3/tasks",
+		"/home/kranzi/infra/ansible/roles/kexec/meta",
+		"/home/kranzi/infra/ansible/roles/kexec/tasks",
+		"/home/kranzi/infra/ansible/roles/key-repo-apt",
+		"/home/kranzi/infra/ansible/roles/key-repo-apt/defaults",
+		"/home/kranzi/infra/ansible/roles/key-repo-apt/meta",
+		"/home/kranzi/infra/ansible/roles/key-repo-apt/tasks",
+		"/home/kranzi/infra/ansible/roles/node",
+		"/home/kranzi/infra/ansible/roles/node/tasks"
+	],
+	"file_history":
+	[
+		"/home/kranzi/Projects/private/typescript/install_typescript.yml",
+		"/media/kranzi/slow/Projekte/private/typescript/package.json",
+		"/home/kranzi/Projects/private/typescript/gulpfile.js",
+		"/home/kranzi/Projects/private/typescript/node_modules/phaser/typescript/readme.md",
+		"/home/kranzi/Projects/private/typescript/src/app.ts",
+		"/home/kranzi/Projects/private/typescript/dist/index.html",
+		"/home/kranzi/Projects/private/typescript/src/main.ts",
+		"/home/kranzi/Projects/private/typescript/src/greet.ts",
+		"/home/kranzi/Projects/private/typescript/package.json",
+		"/home/kranzi/Projects/private/typescript/src/phaser.d.ts",
+		"/home/kranzi/Projects/private/typescript/src/index.html",
+		"/home/kranzi/Projects/private/typescript/node_modules/phaser/build/config.php",
+		"/home/kranzi/Projects/private/typescript/roles/node/meta/main.yml",
+		"/home/kranzi/Projects/private/typescript/roles/node/defaults/main.yml",
+		"/home/kranzi/Projects/private/typescript/roles/node/tasks/main.yml",
+		"/home/kranzi/Projects/private/typescript/roles/key-repo-apt/tasks/main.yml",
+		"/home/kranzi/Downloads/Silicon.Valley.S03E04.720p.HDTV.x264-FLEET[rarbg]/Silicon.Valley.S03E04.720p.HDTV.x264-FLEET.VO.srt",
+		"/home/kranzi/Projects/private/typescript/tsconfig.json",
+		"/home/kranzi/infra/ansible/roles/autossh/tasks/main.yml",
+		"/home/kranzi/infra/ansible/roles/node/tasks/main.yml",
+		"/home/kranzi/Projects/private/typescript/ansible.cfg",
+		"/home/kranzi/infra/ansible/ansible.cfg",
+		"/home/kranzi/Projects/private/typescript/roles/typescript/tasks/main.yml",
+		"/home/kranzi/Projects/private/typescript/roles/gulp/tasks/main.yml",
+		"/home/kranzi/Projects/private/typescript/roles/gulp/meta/main.yml",
+		"/home/kranzi/Projects/private/typescript/roles/ppa/tasks/main.yml",
+		"/home/kranzi/Projects/private/typescript/inventory",
+		"/home/kranzi/Projects/hfpr/7T1Hx4+7T13Cx3_proton-decoupling/07-Power_Sim/scripts/nw.jl",
+		"/home/kranzi/Downloads/The Wolf of Wall Street (2013) [1080p]/The.Wolf.of.Wall.Street.2013.1080p.BluRay.X264-YIFY.CHI.srt",
+		"/home/kranzi/Projects/hfpr/7T1Hx4+7T13Cx3_proton-decoupling/07-Power_Sim/scripts/lowpass.jl",
+		"/home/kranzi/.julia/v0.4/Networks/src/Networks.jl",
+		"/home/kranzi/Projects/julia/Networks.jl/travis.yml",
+		"/home/kranzi/.julia/v0.4/Networks/test/runtests.jl",
+		"/home/kranzi/Projects/private/typescript/roles/typescript/meta/main.yml",
+		"/home/kranzi/infra/ansible/roles/docker-image-stylus/meta/main.yml",
+		"/home/kranzi/infra/ansible/roles/stylus/tasks/main.yml",
+		"/home/kranzi/Projects/private/typescript/roles/docker-image-stylus/meta/main.yml",
+		"/media/kranzi/Kindle/documents/Corey, James S.A_/Leviathan Wakes - James S.A. Corey.mobi",
+		"/media/kranzi/Kindle/documents/Corey, James S.A_/Leviathan Wakes - James S.A. Corey.sdr/Leviathan Wakes - James S.A. Corey.apnx",
+		"/home/kranzi/FightCade/README.md",
+		"/home/kranzi/Projects/hfpr/7T1Hx4+7T13Cx3_proton-decoupling/07-Power_Sim/scripts/properties.jl",
+		"/home/kranzi/Projects/hfpr/7T1Hx4+7T13Cx3_proton-decoupling/07-Power_Sim/scripts/ui_test.jl",
+		"/home/kranzi/.julia/v0.4/SymPy/src/plot-v4.jl",
+		"/media/kranzi/DATA/7T1Hx4+7T13Cx3_proton-decoupling/07-Power_Sim/scripts/ui_test.jl",
+		"/home/kranzi/Projects/hfpr/7T1Hx4+7T13Cx3_proton-decoupling/07-Power_Sim/scripts/skrf.jl",
+		"/home/kranzi/Projects/private/julia/properties.jl",
+		"/home/kranzi/.julia/v0.4/ZMQ/src/ZMQ.jl",
+		"/home/kranzi/.julia/v0.4/ZMQ/deps/deps.jl",
+		"/home/kranzi/.julia/v0.4/ZMQ/deps/build.jl",
+		"/home/kranzi/.julia/v0.4/Cxx/deps/build.jl",
+		"/home/kranzi/.julia/v0.4/Cxx/deps/BuildBootstrap.Makefile",
+		"/home/kranzi/.julia/v0.4/Cxx/README.md",
+		"/home/kranzi/.julia/v0.4/ColorTypes/src/traits.jl",
+		"/home/kranzi/.julia/v0.4/ColorTypes/src/types.jl",
+		"/home/kranzi/.julia/v0.4/ColorTypes/src/show.jl",
+		"/home/kranzi/.julia/v0.4/ColorTypes/src/conversions.jl",
+		"/home/kranzi/.julia/v0.4/ColorTypes/src/ColorTypes.jl",
+		"/home/kranzi/.julia/v0.4/Colors/.gitignore",
+		"/home/kranzi/.julia/v0.4/Colors/REQUIRE",
+		"/home/kranzi/.julia/v0.4/Colors/images/GenerateImages.jl",
+		"/home/kranzi/.julia/v0.4/ZMQ/test/runtests.jl",
+		"/home/kranzi/.julia/v0.4/Cxx/src/CxxREPL/replpane.jl",
+		"/home/kranzi/.julia/v0.4/Cpp/deps/Makefile",
+		"/home/kranzi/.julia/v0.4/Cpp/deps/build.jl",
+		"/home/kranzi/.julia/v0.4/Cpp/src/Cpp.jl",
+		"/home/kranzi/.julia/v0.4/JSON/src/Parser.jl",
+		"/home/kranzi/.julia/v0.4/IJulia/deps/JUPYTER",
+		"/home/kranzi/.julia/v0.4/IJulia/src/kernel.jl",
+		"/home/kranzi/.julia/v0.4/IJulia/src/IJulia.jl",
+		"/home/kranzi/.julia/v0.4/IJulia/deps/deps.jl",
+		"/home/kranzi/.julia/v0.4/Compat/README.md",
+		"/home/kranzi/.qucs/sparam_prj/wave_measure_test.s2p",
+		"/home/kranzi/.julia/v0.4/JSON/src/JSON.jl",
+		"/lib/plymouth/themes/mint-logo/mint-logo.plymouth",
+		"/home/kranzi/.qucs/Caps_prj/noise.dpl",
+		"/home/kranzi/.qucs/Caps_prj/noise.jl",
+		"/home/kranzi/.qucs/Caps_prj/noise.sch",
+		"/home/kranzi/.config/i3/config",
+		"/home/kranzi/Downloads/Elementary.S04E14.720p.HDTV.X264-DIMENSION.VO.srt",
+		"/home/kranzi/infra/ansible/roles/i3/meta/main.yml",
+		"/home/kranzi/infra/ansible/roles/i3/tasks/main.yml",
+		"/home/kranzi/infra/ansible/roles/autossh/meta/main.yml",
+		"/home/kranzi/infra/ansible/roles/docker/meta/main.yml",
+		"/home/kranzi/infra/ansible/roles/qucs/meta/main.yml",
+		"/home/kranzi/infra/ansible/install_qucs.yml",
+		"/home/kranzi/.qucs/netlist.txt",
+		"/home/kranzi/.qucs/log.txt",
+		"/home/kranzi/.qucs/asco_out.log",
+		"/home/kranzi/.qucs/asco_out.dat",
+		"/home/kranzi/.qucs/asco_netlist.txt",
+		"/home/kranzi/.qucs/asco_netlist.cfg",
+		"/home/kranzi/.qucs/asco.log",
+		"/home/kranzi/.qucs/Caps_prj/cap_crl.dat",
+		"/home/kranzi/infra/ansible/inventory",
+		"/home/kranzi/infra/ansible/install_qucs.retry",
+		"/home/kranzi/infra/ansible/test",
+		"/etc/i3status.conf",
+		"/home/kranzi/Pictures/xkcd/temp.json",
+		"/home/kranzi/test.txt",
+		"/home/kranzi/i3/config",
+		"/home/kranzi/.i3/config",
+		"/home/kranzi/.nvm/nvm.sh",
+		"/home/kranzi/dotfiles/tes",
+		"/home/kranzi/dotfiles/test",
+		"/home/kranzi/Projects/private/docker/roles/docker-image/meta/main.yml",
+		"/home/kranzi/dotfiles/a.sh",
+		"/home/kranzi/Projects/private/docker/roles/docker-image/defaults/main.yml",
+		"/home/kranzi/Projects/private/docker/roles/docker-image/templates/Dockerfile.j2",
+		"/home/kranzi/Projects/private/docker/roles/docker-image/templates/playbook.yml.j2",
+		"/home/kranzi/Projects/private/docker/roles/base/meta/main.yml",
+		"/home/kranzi/.inputrc",
+		"/etc/inputrc",
+		"/home/kranzi/dotfiles/test.sh",
+		"/home/kranzi/dotfiles/._",
+		"/home/kranzi/Projects/private/ansible/roles/install_1/lib/test.yml",
+		"/home/kranzi/Projects/private/ansible/roles/install/meta/main.yml",
+		"/home/kranzi/Projects/private/ansible/roles/install_1/tasks/main.yml",
+		"/home/kranzi/.nvm/install.sh",
+		"/home/kranzi/.nvm/README.markdown",
+		"/home/kranzi/Projects/private/ansible/roles/install/tasks/main.yml",
+		"/home/kranzi/Projects/private/vagrant/ansible/test",
+		"/etc/bash.bashrc",
+		"/home/kranzi/tmux-server-11254.log",
+		"/home/kranzi/tmux-client-11252.log",
+		"/home/kranzi/Projects/private/ansible/test_install.yml",
+		"/etc/wgetrc",
+		"/etc/upstart-xsessions",
+		"/etc/usb_modeswitch.conf"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 156.0,
+		"where_history":
+		[
+			"/usr/local/lib/python3.4/dist-packages/subuserlib"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"'",
+			"{{ packet_name }}",
+			"{{ key_url }}",
+			"deb https://deb.nodesource.com/{{ node_version }} {{ distro }}",
+			"sudo",
+			"R[ ",
+			" 0.0	0.0;",
+			"nw.",
+			"InstrLs",
+			"InstrCs",
+			".0",
+			"2",
+			"1",
+			"InstrRL",
+			"ShuntRL",
+			"shunt2",
+			"shunt1",
+			"through",
+			"shunt",
+			"through",
+			"shunt",
+			"ω",
+			"connect",
+			", ",
+			"( 	",
+			"(	",
+			"Instr",
+			"instr",
+			"Instr",
+			"instr",
+			"Instr",
+			"instr_shunt",
+			"Instr",
+			"instr_shunt",
+			"Instr",
+			"de_embed",
+			"de_embedd",
+			"npy",
+			"de_embed",
+			"inv",
+			"			# S[i,k] ",
+			"S32",
+			"S31",
+			"for j in l + 1:nT",
+			"for j in k + 1:nS		# S[j]		# S[j]",
+			"for j in 1:l - 1",
+			"for j in k + 1:nS",
+			"UI",
+			" S, k, l, ",
+			"notebook_cmd",
+			"ffffff",
+			"_",
+			"semicolon",
+			"odiaeresis",
+			"pichlermi",
+			" ",
+			"node-tools",
+			"docker_image_project_dir",
+			"docker_image_roles_dst_dir",
+			"docker_dir_ansible",
+			"docker_dir_project_dir",
+			"docker_roles_list",
+			"docker_roles_project_dir",
+			"docker",
+			"docker_dir",
+			"docker-dir",
+			"docker_image",
+			"docker-image",
+			"docker_image",
+			"cmd",
+			"docker_roles_project_dir",
+			"role",
+			"node",
+			"docker_roles_project_dir",
+			"~/docker/ansible-sublime",
+			"~/ansible/roles",
+			"node",
+			"npm-global-install",
+			"ansible-node-tools",
+			"ansible-node",
+			"ppa_url",
+			"sublime",
+			"node",
+			"ansible-node",
+			"ansible-base",
+			"parted",
+			"mintbox-sysdisk",
+			"config.vm",
+			"large_disk",
+			"remastersys",
+			"are",
+			"ZFS_device_name",
+			"ZFS_part_table",
+			"ZFS",
+			"remastersys",
+			"ZFS",
+			"zfs",
+			"ZFS",
+			"remastersys",
+			"sda_64G.part-table",
+			"FAI",
+			"-- ",
+			"-- persistent",
+			" ",
+			".deb",
+			"deb_package_name",
+			"\n,",
+			"gui",
+			"\"\n,\"",
+			"\n,",
+			"raw_input",
+			"pip3",
+			"pip3_package",
+			"none",
+			"test",
+			"vagrant1",
+			"ansible_user",
+			" }}\"",
+			"msg:  \"{{ ",
+			"inventory_hostname",
+			"ansible_host",
+			"ansible_user",
+			"ansible_ssh_user",
+			"remote_user",
+			"DebOps",
+			"fitlet-kernel",
+			"deb_package_url",
+			"vagrant"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/app.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								587,
+								587
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 30.0,
+						"translation.y": 1014.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								519,
+								519
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 57.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 280.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 276.0
+	},
+	"pinned_build_system": "",
+	"project": "typescript.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/docker/docker.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 445.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
