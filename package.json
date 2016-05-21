@@ -4,7 +4,7 @@
   "description": "testing typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "gulp"
   },
   "author": "",
   "license": "ISC",

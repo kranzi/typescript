@@ -26,51 +26,53 @@
 //     .pipe( gulp.dest( "dist" ) );
 // } );
 
-var gulp        = require( "gulp" );
-var browserify  = require( "browserify" );
-var source      = require( "vinyl-source-stream" );
-var watchify    = require( "watchify" );
-var tsify       = require( "tsify" );
-var gutil       = require( "gulp-util" );
-var server      = require( "gulp-server-livereload" );
+// var gulp        = require( "gulp" );
+// var browserify  = require( "browserify" );
+// var source      = require( "vinyl-source-stream" );
+// var watchify    = require( "watchify" );
+// var tsify       = require( "tsify" );
+// var gutil       = require( "gulp-util" );
+// var server      = require( "gulp-server-livereload" );
  
-var paths = {
-    pages: [ "src/*.html" ]
-};
+// var paths = {
+//     pages: [ "src/*.html" ]
+// };
 
-var watchedBrowserify = watchify( browserify( {
-    basedir:    ".",
-    debug:      true,
-    // entries:    [ "src/main.ts" ],
-    entries:    [ "src/app.ts" ],
-    cache:      {},
-    packageCache:   {}
-} ).plugin( tsify ) );
+// var watchedBrowserify = watchify( browserify( {
+//     basedir:    ".",
+//     debug:      true,
+//     // entries:    [ "src/main.ts" ],
+//     entries:    [ "src/app.ts" ],
+//     cache:      {},
+//     packageCache:   {}
+// } ).plugin( tsify ) );
 
-gulp.task( "copy-html", function () {
-    return gulp.src( paths.pages )
-        .pipe( gulp.dest( "dist" ) );
-} );
+// gulp.task( "copy-html", function () {
+//     return gulp.src( paths.pages )
+//         .pipe( gulp.dest( "dist" ) );
+// } );
 
-gulp.task( "webserver", function() {
-  gulp.src( "dist" )
-    .pipe( server( {
-      livereload: true,
-      open:       true
-    } ) );
-} );
+// gulp.task( "webserver", function() {
+//   gulp.src( "dist" )
+//     .pipe( server( {
+//       livereload: true,
+//       open:       true
+//     } ) );
+// } );
 
-function bundle() {
-    return watchedBrowserify
-        .bundle()
-        // .pipe( source( "bundle.js" ) )
-        .pipe( source( "app.js" ) )
-        .pipe( gulp.dest( "dist" ) );
-}
+// function bundle() {
+//     return watchedBrowserify
+//         .bundle()
+//         // .pipe( source( "bundle.js" ) )
+//         .pipe( source( "app.js" ) )
+//         .pipe( gulp.dest( "dist" ) );
+// }
 
-gulp.task( "bundle", bundle );
+// gulp.task( "bundle", bundle );
 
 
-gulp.task( "default", [ "copy-html", "bundle", "webserver" ] );
-watchedBrowserify.on( "update", bundle );
-watchedBrowserify.on( "log", gutil.log );
+// gulp.task( "default", [ "copy-html", "bundle", "webserver" ] );
+// watchedBrowserify.on( "update", bundle );
+// watchedBrowserify.on( "log", gutil.log );
+
+# http://jonnyreeves.co.uk/2015/hello-typescript-and-mocha/
