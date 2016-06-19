@@ -6,3 +6,11 @@
   - name: node
   - name: typescript
   - name: gulp
+
+- tasks:
+  - name: install project npm dependencies 
+    npm: 
+      state:  latest
+
+  - name: call gulp
+    command: gulp
