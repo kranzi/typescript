@@ -1,13 +1,13 @@
 #!/usr/bin/env ansible-playbook
 ---
-- hosts: localhost
+- hosts: test
   gather_facts: False
   roles:
   - name: node
   - name: typescript
   - name: gulp
 
-- tasks:
+  tasks:
   - name: install project npm dependencies 
     npm: 
       state:  latest
