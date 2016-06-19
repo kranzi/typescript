@@ -3,9 +3,9 @@
 - hosts: test
   gather_facts: False
   roles:
-  - name: node
-  - name: typescript
-  - name: gulp
+  - node
+  - typescript
+  - gulp
 
   tasks:
   - name: install project npm dependencies 
